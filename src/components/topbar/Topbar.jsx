@@ -2,6 +2,7 @@ import "./topbar.scss"
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
 
+
 export default function Topbar({menuOpen, setMenuOpen}) {
 
   return (
@@ -9,7 +10,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
       
       <div className="wrapper">
           <div className="left">            
-          <a href="#intro" className="logo">Portfolio</a>
+          <a href="#about" className="logo">Zenash Kassa</a>
           <div className="itemContainer">
             <MailOutlineIcon className="icon"/>
             <span>zkassa@gmail.com</span>
